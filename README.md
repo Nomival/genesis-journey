@@ -2,9 +2,11 @@
 
 依《恢復本・創世記綱目》「參　耶和華的呼召」，呈現亞伯拉罕、以撒、雅各（連同約瑟）的經歷。完整版包含 124 幕，約 31 分鐘，提供地圖動畫、人物動態、經文與綱目小點、播放進度，以及可選擇顯示的已完成事件圖示。
 
-## 目前用途
+## 線上觀看
 
-先以私人儲存庫保存與檢查動畫。**GitHub Pages 保持關閉，尚未公開發布網站。**
+[開啟完整互動動畫](https://nomival.github.io/genesis-journey/)
+
+網站由 GitHub Pages 提供，從 `main` 分支的根目錄發布。觀看者不需要 GitHub、Notion 或 ChatGPT 帳號。你也可以把此網址嵌入 Notion 訓練教材。
 
 ## 在自己的電腦預覽
 
@@ -36,11 +38,12 @@ python3 build.py
 
 播放進度與地圖選項儲存在各瀏覽器的本機儲存空間，不會同步到 GitHub。動畫目前預設關閉已完成事件圖示，保留手機版整頁捲動修正。
 
-## 日後公開發布
+## 停止公開存取
 
-只有在決定公開時才啟用 GitHub Pages。私人儲存庫與私人網站的權限不同；一般 GitHub Pages 發布後會成為公開網站。GitHub Free 使用 Pages 需要公開儲存庫；真正的私人 Pages 發布需要 GitHub Enterprise Cloud 組織方案。
+1. 到 `Settings → Pages`，把發布分支改成 `None`，按 `Save`，關閉網站。
+2. 若原始檔案也不再公開，到 `Settings → General → Danger Zone → Change visibility`，把儲存庫改回 `Private`。
 
-決定公開後，依適用方案調整儲存庫設定，再到 `Settings → Pages → Deploy from a branch`，選擇 `main` 和 `/(root)`。目前不設定自動部署工作流程。
+若日後重新發布，依適用方案調整儲存庫可見性，再到 `Settings → Pages → Deploy from a branch`，選擇 `main` 和 `/(root)`。私人儲存庫與私人網站的權限不同；一般 GitHub Pages 發布後會成為公開網站。已被下載或 fork 的副本不會隨可見性變更而收回。
 
 ## 內容與參考資料
 
